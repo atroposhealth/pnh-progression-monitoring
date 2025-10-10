@@ -4,7 +4,7 @@ Paroxysmal Nocturnal Hemoglobinuria (PNH) is a very rare and complex blood disor
 
 The goal of the following two PNH Closer Monitoring Models is to help healthcare providers monitor patients more closely to reduce ongoing anemia and prevent organ dysfunction and dangerous blood clots.
 
-Model Descriptions
+<B>Model Descriptions:</B><BR>
 We developed two models, designed to be used sequentially for patients diagnosed with PNH.<BR><BR>
 A) <B>Pre-Treatment Model</B> (<A HREF="https://github.com/atroposhealth/pnh-progression-monitoring/blob/main/PNH_Progression_Monitoring_Pre_Treatment.xgb">PNH_Progression_Monitoring_Pre_Treatment.xgb</A>)<BR><BR>
    <B>Patients</B>: This model is for patients who have a PNH diagnosis (ICD-10 D59.5) but do not have a diagnosis of bone marrow failure (aplastic anemia or myelodysplastic syndrome).<BR>
