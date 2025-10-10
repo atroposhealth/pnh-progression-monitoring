@@ -6,7 +6,7 @@ The goal of the following two PNH Closer Monitoring Models is to help healthcare
 
 Model Descriptions
 We developed two models, designed to be used sequentially for patients diagnosed with PNH.<BR><BR>
-A) <B>Pre-Treatment Model</B> (<A HREF="https://github.com/atroposhealth/pnh-progression-monitoring/blob/main/PNH_By_Dx_NoBMF_thromb.organ.anemia_12.xgb">PNH_By_Dx_NoBMF_thromb.organ.anemia_12.xgb</A>)<BR><BR>
+A) <B>Pre-Treatment Model</B> (<A HREF="https://github.com/atroposhealth/pnh-progression-monitoring/blob/main/PNH_Progression_Monitoring_Pre_Treatment.xgb">PNH_Progression_Monitoring_Pre_Treatment.xgb</A>)<BR><BR>
    <B>Patients</B>: This model is for patients who have a PNH diagnosis (ICD-10 D59.5) but do not have a diagnosis of bone marrow failure (aplastic anemia or myelodysplastic syndrome).<BR>
    <B>Prediction Target</B>: The risk of developing thrombosis, organ dysfunction, or anemia.<BR>
    <B>Key Features</B>: The model uses the following patient data. For technical definitions, refer to the feature dictionary.
@@ -20,7 +20,7 @@ A) <B>Pre-Treatment Model</B> (<A HREF="https://github.com/atroposhealth/pnh-pro
       <LI>History of congestive heart failure</LI>
    </OL>
 <BR>
-B) <B>Ongoing Treatment Model</B> (<A HREF="https://github.com/atroposhealth/pnh-progression-monitoring/blob/main/PNH_By_DxAndTx_labs.hemolytic.anemia.wrs_12.xgb">PNH_By_DxAndTx_labs.hemolytic.anemia.wrs_12.xgb</A>)<BR><BR>
+B) <B>Ongoing Treatment Model</B> (<A HREF="https://github.com/atroposhealth/pnh-progression-monitoring/blob/main/PNH_Progression_Monitoring_Ongoing_Treatment.xgb">PNH_Progression_Monitoring_Ongoing_Treatment.xgb</A>)<BR><BR>
    <B>Patients</B>: This model is for patients who have already started PNH treatment with one of the following medications: eculizumab, ravulizumab, iptacopan, pegcetacoplan, or danicopan.<BR>
    <B>Prediction Target</B>: The risk of worsening hemolytic anemia.<BR>
    <B>Key Features</B>: The model uses the following patient data. For technical definitions, refer to the feature dictionary.
