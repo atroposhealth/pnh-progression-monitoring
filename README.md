@@ -7,7 +7,7 @@ The goal of the following two PNH Closer Monitoring Models is to help healthcare
 <B>Model Descriptions:</B><BR>
 We developed two models, designed to be used sequentially for patients diagnosed with PNH.<BR><BR>
 A) <B>Pre-Treatment Model</B> (<A HREF="https://github.com/atroposhealth/pnh-progression-monitoring/blob/main/PNH_Progression_Monitoring_Pre_Treatment.xgb">PNH_Progression_Monitoring_Pre_Treatment.xgb</A>)<BR><BR>
-   <B>Patients</B>: This model is for patients who have a PNH diagnosis (ICD-10 D59.5), do not have a diagnosis of bone marrow failure (aplastic anemia or myelodysplastic syndrome), and have not initiated any of the following medications: eculizumab, ravulizumab, iptacopan, pegcetacoplan, or danicopan.<BR>
+   <B>Patients</B>: This model is for patients who have a PNH diagnosis (ICD-10 D59.5), do not have a diagnosis of bone marrow failure (aplastic anemia or myelodysplastic syndrome), and have not initiated any of the following medications: {eculizumab, ravulizumab, iptacopan, pegcetacoplan, or danicopan}.<BR>
    <B>Prediction Target</B>: The risk of developing thrombosis, organ dysfunction, or anemia.<BR>
    <B>Key Features</B>: The model uses the following patient data. For technical definitions, refer to the <A HREF="https://github.com/atroposhealth/pnh-progression-monitoring/blob/main/PNH_Progression_Monitoring_Feature_Dictionary.xlsx">feature dictionary</A>.
    <OL>
@@ -21,7 +21,7 @@ A) <B>Pre-Treatment Model</B> (<A HREF="https://github.com/atroposhealth/pnh-pro
    </OL>
 <BR>
 B) <B>Ongoing Treatment Model</B> (<A HREF="https://github.com/atroposhealth/pnh-progression-monitoring/blob/main/PNH_Progression_Monitoring_Ongoing_Treatment.xgb">PNH_Progression_Monitoring_Ongoing_Treatment.xgb</A>)<BR><BR>
-   <B>Patients</B>: This model is for patients who have a PNH diagnosis (ICD-10 D59.5) and have already started PNH treatment with one of the following medications: eculizumab, ravulizumab, iptacopan, pegcetacoplan, or danicopan.<BR>
+   <B>Patients</B>: This model is for patients who have a PNH diagnosis (ICD-10 D59.5) and have started PNH treatment with one of the following medications: {eculizumab, ravulizumab, iptacopan, pegcetacoplan, or danicopan}.<BR>
    <B>Prediction Target</B>: The risk of worsening hemolytic anemia.<BR>
    <B>Key Features</B>: The model uses the following patient data. For technical definitions, refer to the <A HREF="https://github.com/atroposhealth/pnh-progression-monitoring/blob/main/PNH_Progression_Monitoring_Feature_Dictionary.xlsx">feature dictionary</A>.
    <OL>
